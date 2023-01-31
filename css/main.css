@@ -1,0 +1,256 @@
+/*Extra-light 200
+Light 300
+Regular 400
+Bold 700 italic
+Black 900*/
+
+:root {
+	--green0: #479339;
+	--green1: #50AE08;
+	--green2: #73CD2E;
+	--green3: #A7D382;
+	--black0: #3F4241;
+	--black1: #646766;
+	--black2: #898B8B;
+	--black3: #AFB0AF;
+	--black4: #D4D4D4;
+	--black5: #F0F0F0;
+	--black6: #F9F9F9;
+
+	--bkg: #FAFAFA;
+}
+
+body {
+	font-size: 18px ;
+	font-family: 'Barlow', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: var(--bkg);
+	line-height: 24px;
+}
+p {
+	font-weight: 400;
+}
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1 {
+	color: var(--green1);
+	font-size: 1.778em;
+	/*font-family: Barlow;*/
+	font-style: normal;
+	font-weight: 500;
+	line-height: 38px;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	padding-right: 0em;
+	padding-left: 0em;
+}
+h2 {
+	/*font-family: Barlow;*/
+	font-style: normal;
+	font-weight: normal;
+	color: var(--black1);
+	font-size: 1.555em;
+	line-height: 34px;
+	/* identical to box height */
+	/*display: flex;*/
+	/*align-items: center;*/
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	padding-top: 0em;
+	padding-bottom: .444em;
+	padding-right: 0em;
+	padding-left: 0em;
+}
+h3 {
+	color: var(--black1);
+	font-size: 1.555em;
+	/*font-family: Barlow;*/
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	padding-top: 0em;
+	padding-bottom: .444em;
+	padding-right: 0em;
+	padding-left: 0em;
+}
+
+/*https://codepen.io/MihaiSlujitoru/pen/NAQzAJ*/
+.maxcontainerwidth {
+	max-width: 80em;
+	margin: 0 auto;
+	padding: 0 2vw;
+}
+
+#menubar {
+	height: 2.5em;
+	position: sticky;
+	top: 0;
+	background-color: rgba(249, 249, 249, .9);
+	border-bottom: rgb(232, 232, 232) solid 1px;
+	margin-bottom: 5vh;
+	
+}
+#menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+
+}
+#menubar ul {
+	display: inline-flex;
+}
+#menubar ul li {
+	list-style: none;
+	padding: 0em 1em;
+	font-weight: 500;
+}
+#menubar a {
+	text-decoration: none;
+	padding: 0 .3em;
+	color: rgba(172, 172, 172, 1);
+	font-weight: 500;
+}
+#menubar p {
+	margin: 0;
+	height: 100%;
+	align-content: center;
+	display: inline-grid;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	
+}
+.mainlogo {
+	display: flex;
+}
+.mainlogo, .mainlogo img {
+	height: 2.25em;
+}
+.homelogocontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.homelogo {
+	width: 14vh;
+}
+.featured {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.items {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.featurebox {
+	width: 33%;
+	/*background-color: gainsboro;*/
+}
+.featureimages {
+	width: 100%;
+	aspect-ratio: 1.77;
+}
+.box {
+	width: 24.7%;
+	aspect-ratio: 1.77;
+	/*background-color: gainsboro;*/
+	margin-bottom: .5%;
+}
+.box a {
+	text-decoration: none;
+}
+.boxhover {
+
+}
+.project {
+	display: flex;
+	justify-content: space-between;
+}
+.projectdescription {
+	width: 32%;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 6.5rem;
+	height: 23rem;
+}
+#projectTitle {
+	position: sticky;
+	position: -webkit-sticky; /* Safari */
+	top: 4rem;
+}
+.projectdescription p {
+	margin-top: 0;
+	margin-bottom: 3rem;
+}
+.projectdetailimages {
+	width: 65%;
+}
+.projectdetailimg {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.returnbutton {
+	background-color: rgba(80, 174, 8, 1.0);
+	padding: .5rem 2rem;
+	color: #fafafa;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 27px;
+}
+#footer {
+	border-top: var(--green2) solid 1px;
+	margin-top: 7vh;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3vh;
+	padding-top: .5em;
+}
+#footer p {
+	color: var(--black3);
+	font-weight: 400;
+	font-size: .777em;
+}
+#footer .footerlinks {
+	display: flex;
+	justify-content: space-between;
+	width: 42%;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+#footer a {
+	color: var(--black2);
+	/*font-weight: 400;*/
+	text-decoration: none;
+	transition: .5s all;
+	border-bottom: var(--bkg) solid 1px;
+}
+#footer a:hover {
+	color: var(--green0);
+	/*font-weight: 500;*/
+	border-bottom: var(--green2) solid 1px;
+}
