@@ -67,7 +67,7 @@ h2 {
 	/*display: flex;*/
 	/*align-items: center;*/
 	letter-spacing: -0.02em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin-top: 1em;
 	margin-bottom: 0em;
 	margin-right: 0em;
@@ -84,7 +84,7 @@ h3 {
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: -0.02em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin-top: 1em;
 	margin-bottom: 0em;
 	margin-right: 0em;
@@ -168,7 +168,7 @@ h3 {
 	flex-wrap: wrap;
 }
 .featurebox {
-	width: 33%;
+	width: 32%;
 	/*background-color: gainsboro;*/
 }
 .featureimages {
@@ -176,10 +176,10 @@ h3 {
 	aspect-ratio: 1.77;
 }
 .box {
-	width: 24.7%;
+	width: 23.7%;
 	aspect-ratio: 1.77;
 	/*background-color: gainsboro;*/
-	margin-bottom: .5%;
+	margin-bottom: 3rem;
 }
 .box a {
 	text-decoration: none;
@@ -225,8 +225,8 @@ h3 {
 #footer {
 	border-top: var(--green2) solid 1px;
 	margin-top: 7vh;
-	display: flex;
-	justify-content: space-between;
+/*	display: flex;*/
+/*	justify-content: space-between;*/
 	margin-bottom: 3vh;
 	padding-top: .5em;
 }
@@ -238,7 +238,7 @@ h3 {
 #footer .footerlinks {
 	display: flex;
 	justify-content: space-between;
-	width: 42%;
+/*	width: 42%;*/
 	font-size: 1em;
 	text-transform: uppercase;
 }
