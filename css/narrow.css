@@ -1,0 +1,67 @@
+/*#portfolioimages {
+	width: 600px;
+}*/
+
+/*when the browser's width is between 600 and 900px*/
+/*@media screen and (max-width: 810px) and (min-width: 600px) {*/
+@media screen and (max-width: 810px) {
+	.project {
+		display: inherit;
+	}
+	.projectdescription {
+		height: 15vh;
+		position: inherit;
+		width: 100%;
+	}
+	.projectdetailimages {
+		width: 100%;
+	}
+	#projectTitle {
+		position: inherit;
+	}
+	.maxcontainerwidth {
+		width: 90vw;
+	}
+}
+/*widths lower than 600px*/
+@media screen and (max-width: 600px) {
+	#menu {
+		display: grid;
+		justify-content: center;
+		padding-top: 1vh;
+	}
+	#menu ul {
+		padding-left: 0px;
+	}
+	.mainlogo {
+		justify-content: center;
+	}
+	#menubar {
+		height: inherit;
+	}
+	.projectdescription {
+		height: 14vh;
+	}
+	#footer .footerlinks {
+		display: inline-grid;
+	}
+}
+
+/*widths lower than 700px*/
+@media screen and (max-width: 750px) {
+	.featured {
+		display: inherit;
+	}
+	.featurebox {
+		width: 100%;
+	}
+	.box {
+		width: 48.7%;
+	}
+	.homelogo {
+		width: 12vh;
+	}
+	#menubar {
+		margin-bottom: 3vh;
+	}
+}
