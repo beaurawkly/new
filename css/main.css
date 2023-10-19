@@ -107,7 +107,12 @@ h6 {
 	font-weight: normal;
 	letter-spacing: -0.02em;
 }
-
+li {
+	color: var(--black1);
+}
+#software {
+	margin-bottom: 0;
+}
 /*https://codepen.io/MihaiSlujitoru/pen/NAQzAJ*/
 .maxcontainerwidth {
 	max-width: 80em;
@@ -219,7 +224,22 @@ h6 {
 }
 .projectdescription p {
 	margin-top: 0;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
+}
+.projectdescription ul {
+	margin-bottom: 1rem;
+}
+.projectdescription ul li {
+	border-radius: 2rem;
+	padding: 0.125rem 1.125rem;
+	display: inline flow-root list-item;
+	background-color: var(--black4);
+	margin: .25rem .25rem;
+	font-size: .75rem;
+}
+.projectdescription a {
+	text-decoration: none;
+	color: var(--green0);
 }
 .projectdetailimages {
 	width: 65%;
@@ -277,4 +297,8 @@ h6 {
 	color: var(--green0);
 	/*font-weight: 500;*/
 	border-bottom: var(--green2) solid 1px;
+}
+video {
+	width: 100%;
+	height: auto;
 }
