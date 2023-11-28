@@ -302,3 +302,7 @@ video {
 	width: 100%;
 	height: auto;
 }
+
+.aenbsp {
+	display: none;
+}
