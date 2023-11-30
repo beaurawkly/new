@@ -9,9 +9,14 @@
 		display: inherit;
 	}
 	.projectdescription {
-		height: 15vh;
+		height: inherit;
 		position: inherit;
 		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.projectdescription p {
+		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 	}
 	.projectdetailimages {
 		width: 100%;
@@ -40,7 +45,7 @@
 		height: inherit;
 	}
 	.projectdescription {
-		height: 14vh;
+		height: inherit;
 	}
 	#footer .footerlinks {
 		display: inline-grid;
