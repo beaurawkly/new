@@ -203,9 +203,9 @@ li {
 .box a {
 	text-decoration: none;
 }
-.boxhover {
+/* .boxhover {
 
-}
+} */
 .project {
 	display: flex;
 	justify-content: space-between;
@@ -240,9 +240,17 @@ li {
 .projectdescription a {
 	text-decoration: none;
 	color: var(--green0);
+	width: 48%;
 }
 .projectdetailimages {
 	width: 65%;
+}
+.projectsimilar {
+	display: flex;
+	justify-content: space-between;
+}
+.relatedtitle {
+	color: var(--green0);
 }
 .projectdetailimg {
 	width: 100%;
@@ -253,7 +261,7 @@ li {
 /*	padding: .5rem 2rem;*/
 	color: rgba(80, 174, 8, 1.0);
 	text-decoration: none;
-	border-bottom: 1px solid rgba(80, 174, 8, 0)
+	border-bottom: 1px solid rgba(80, 174, 8, 0);
 	transition: .5s all;
 }
 .returnbutton::before {
