@@ -5,19 +5,38 @@ Bold 700 italic
 Black 900*/
 
 :root {
-	--green0: #479339;
+	/* --green0: #479339;
 	--green1: #50AE08;
 	--green2: #73CD2E;
 	--green3: #A7D382;
+
 	--black0: #3F4241;
 	--black1: #646766;
 	--black2: #898B8B;
 	--black3: #AFB0AF;
 	--black4: #D4D4D4;
 	--black5: #F0F0F0;
-	--black6: #F9F9F9;
+	--black6: #F9F9F9; */
+	--green0: #3F6212;
+	--green1: #4D7C0F;
+	--green2: #65A30D;
+	--green3: #84CC16;
+	--green4: #A3E635;
+	--green5: #BEF264;
+	--green6: #D9F99D;
 
-	--bkg: #FAFAFA;
+	--black0: #374151;
+	--black1: #4B5563;
+	--black2: #6B7280;
+	--black3: #9CA3AF;
+	--black4: #D1D5DB;
+	--black5: #E5E7EB;
+	--black6: #F3F4F6;
+	--black7: #F9FAFB;
+
+	/* --bkg: #FAFAFA; */
+	--bkg:var(--black7);
+	--text-color:var(--black2);
 }
 
 body {
@@ -147,7 +166,8 @@ li {
 #menubar a {
 	text-decoration: none;
 	padding: 0 .3em;
-	color: rgba(172, 172, 172, 1);
+	color: var(--black2);
+	/* color: rgba(107, 114, 128, 1); */
 	font-weight: 500;
 }
 #menubar p {
@@ -312,7 +332,7 @@ li {
 }
 #footer .footerlinks {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 /*	width: 42%;*/
 	font-size: 1em;
 	text-transform: uppercase;
