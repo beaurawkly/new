@@ -312,7 +312,7 @@ li {
 }
 #footer .footerlinks {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 /*	width: 42%;*/
 	font-size: 1em;
 	text-transform: uppercase;
