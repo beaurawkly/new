@@ -181,9 +181,11 @@ li {
 }
 .mainlogo {
 	display: flex;
+	aspect-ratio: 1 / 1;
 }
 .mainlogo, .mainlogo img {
 	height: 2.25em;
+	aspect-ratio: 1 / 1;
 }
 .homelogocontainer {
 	display: flex;
@@ -192,6 +194,7 @@ li {
 }
 .homelogo {
 	width: 14vh;
+	aspect-ratio: 1 / 1;
 }
 .featured {
 	display: flex;
